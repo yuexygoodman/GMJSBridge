@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80012FEB20B55BD600D87BA5 /* CommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FE420B55BD600D87BA5 /* CommandHandler.swift */; };
-		80012FEC20B55BD600D87BA5 /* H5Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FE520B55BD600D87BA5 /* H5Loader.swift */; };
-		80012FED20B55BD600D87BA5 /* JSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FE620B55BD600D87BA5 /* JSBridge.swift */; };
-		80012FEE20B55BD600D87BA5 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FE720B55BD600D87BA5 /* Resources.swift */; };
 		80012FEF20B55BD600D87BA5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80012FE820B55BD600D87BA5 /* Info.plist */; };
-		80012FF020B55BD600D87BA5 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80012FEA20B55BD600D87BA5 /* Assets.bundle */; };
+		80012FF820B56DD000D87BA5 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80012FF320B56DD000D87BA5 /* Assets.bundle */; };
+		80012FF920B56DD000D87BA5 /* H5Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FF420B56DD000D87BA5 /* H5Loader.swift */; };
+		80012FFA20B56DD000D87BA5 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FF520B56DD000D87BA5 /* Resources.swift */; };
+		80012FFB20B56DD000D87BA5 /* CommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FF620B56DD000D87BA5 /* CommandHandler.swift */; };
+		80012FFC20B56DD000D87BA5 /* JSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80012FF720B56DD000D87BA5 /* JSBridge.swift */; };
 		80F4274A20A532A00025AA81 /* GMJSBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F4274020A5329F0025AA81 /* GMJSBridge.framework */; };
 		80F4274F20A532A00025AA81 /* GMJSBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F4274E20A532A00025AA81 /* GMJSBridgeTests.swift */; };
 /* End PBXBuildFile section */
@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80012FE420B55BD600D87BA5 /* CommandHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandHandler.swift; sourceTree = "<group>"; };
-		80012FE520B55BD600D87BA5 /* H5Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H5Loader.swift; sourceTree = "<group>"; };
-		80012FE620B55BD600D87BA5 /* JSBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSBridge.swift; sourceTree = "<group>"; };
-		80012FE720B55BD600D87BA5 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		80012FE820B55BD600D87BA5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80012FEA20B55BD600D87BA5 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		80012FF320B56DD000D87BA5 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		80012FF420B56DD000D87BA5 /* H5Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H5Loader.swift; sourceTree = "<group>"; };
+		80012FF520B56DD000D87BA5 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		80012FF620B56DD000D87BA5 /* CommandHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandHandler.swift; sourceTree = "<group>"; };
+		80012FF720B56DD000D87BA5 /* JSBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSBridge.swift; sourceTree = "<group>"; };
 		80F4274020A5329F0025AA81 /* GMJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F4274920A532A00025AA81 /* GMJSBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMJSBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F4274E20A532A00025AA81 /* GMJSBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMJSBridgeTests.swift; sourceTree = "<group>"; };
@@ -62,30 +62,14 @@
 		80012FE220B55BD600D87BA5 /* GMJSBridge */ = {
 			isa = PBXGroup;
 			children = (
-				80012FE320B55BD600D87BA5 /* Classes */,
+				80012FF320B56DD000D87BA5 /* Assets.bundle */,
+				80012FF620B56DD000D87BA5 /* CommandHandler.swift */,
+				80012FF420B56DD000D87BA5 /* H5Loader.swift */,
+				80012FF720B56DD000D87BA5 /* JSBridge.swift */,
+				80012FF520B56DD000D87BA5 /* Resources.swift */,
 				80012FE820B55BD600D87BA5 /* Info.plist */,
-				80012FE920B55BD600D87BA5 /* Resources */,
 			);
 			path = GMJSBridge;
-			sourceTree = "<group>";
-		};
-		80012FE320B55BD600D87BA5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				80012FE420B55BD600D87BA5 /* CommandHandler.swift */,
-				80012FE520B55BD600D87BA5 /* H5Loader.swift */,
-				80012FE620B55BD600D87BA5 /* JSBridge.swift */,
-				80012FE720B55BD600D87BA5 /* Resources.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		80012FE920B55BD600D87BA5 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				80012FEA20B55BD600D87BA5 /* Assets.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		80F4273620A5329F0025AA81 = {
@@ -208,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80012FF020B55BD600D87BA5 /* Assets.bundle in Resources */,
+				80012FF820B56DD000D87BA5 /* Assets.bundle in Resources */,
 				80012FEF20B55BD600D87BA5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,10 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80012FEB20B55BD600D87BA5 /* CommandHandler.swift in Sources */,
-				80012FEE20B55BD600D87BA5 /* Resources.swift in Sources */,
-				80012FED20B55BD600D87BA5 /* JSBridge.swift in Sources */,
-				80012FEC20B55BD600D87BA5 /* H5Loader.swift in Sources */,
+				80012FFB20B56DD000D87BA5 /* CommandHandler.swift in Sources */,
+				80012FF920B56DD000D87BA5 /* H5Loader.swift in Sources */,
+				80012FFA20B56DD000D87BA5 /* Resources.swift in Sources */,
+				80012FFC20B56DD000D87BA5 /* JSBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
